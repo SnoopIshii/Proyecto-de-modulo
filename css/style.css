@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Signika+Negative:wght@300..700&display=swap");
+.header {
+  padding-right: 25px;
+}
+.header .h3 {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.header img {
+  width: 45px;
+  height: 45px;
+  flex-direction: row-reverse;
+}
+body {
+  background-color: lightpink;
+}
+.h1 {
+  flex: start;
+}
+.h3 {
+  flex: end;
+}
+.nav a {
+  background-color: rgb(209, 157, 183);
+  color: rgb(247, 244, 244);
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
