@@ -2,31 +2,49 @@
 .header {
   padding-right: 25px;
 }
-.header .h3 {
-  padding-left: 25px;
+.header h1 {
+  margin: 55px;
   display: flex;
   flex-direction: row;
 }
-.header img {
-  width: 45px;
-  height: 45px;
-  flex-direction: row-reverse;
+.header h3{
+  display: flex;
+
 }
-body {
-  background-color: lightpink;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke ;
 }
-.h1 {
-  flex: start;
-}
-.h3 {
-  flex: end;
-}
-.nav a {
-  background-color: rgb(209, 157, 183);
-  color: rgb(247, 244, 244);
-  text-align: center;
+nav a{
   text-decoration: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  padding: 60px;
+  font-size: 25px;
+  color: black;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+body{
+  background-color: lightpink
+}
+
+.icons img {
+  width: 25px;
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+.icon img{
+  width: 900px;
+}
+.icon h2{
+  text-align: center;
+  color: whitesmoke;
+
 }
