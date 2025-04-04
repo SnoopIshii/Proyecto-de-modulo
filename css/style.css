@@ -1,50 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Signika+Negative:wght@300..700&display=swap");
-.header {
-  padding-right: 25px;
-}
-.header h1 {
-  margin: 55px;
-  display: flex;
-  flex-direction: row;
-}
-.header h3{
-  display: flex;
+body{
+background-color: rgb(233, 178, 178);
 
 }
-nav {
+.icon{
+  width: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+header{
+  text-align: center;
+
+}
+header h1{
+  text-align: left;
+  padding: 15px;
+ 
+}
+header img{
+  text-align: center;
+  width: 50px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  color: whitesmoke ;
+  padding: 20px;
+  border-radius: 10%;
+}
+
+
+nav li{
+  display: inline;
+  padding: 80px;
+  font-size: 20px;
 }
 nav a{
   text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 60px;
-  font-size: 25px;
   color: black;
 }
 nav a:hover{
-  text-decoration: underline;
-}
-body{
-  background-color: lightpink
+  background-color: lightcoral;
+  color: black;
 }
 
-.icons img {
-  width: 25px;
-display: flex;
-justify-content: flex-end;
-
-
+p{
+  font-size: 15px;
+line-height: 1.4;
 }
 
-.icon img{
-  width: 900px;
+footer{
+  background-color: rgb(247, 200, 223);
 }
-.icon h2{
-  text-align: center;
-  color: whitesmoke;
-
+.iconss{
+  display: flex;
+  justify-content: end;
+}
+section img{
+width: 95%;
+margin-top: 50px;
 }
