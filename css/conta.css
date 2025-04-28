@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(233, 178, 178);
+ 
+}
+header h1{
+    text-align: left;
+    padding: 45px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .icons{
+    width: 55px;
+    display: flex;
+   justify-content: space-evenly;
+   float: right;
+   margin-inline-end: 5px;
+    padding: 55px;
+    border-radius: 20%;
+  }
+  nav li{
+    display: inline;
+    padding: 80px;
+    font-size: 20px;
+  }
+  nav a{
+    text-decoration: none;
+    color: rgb(236, 221, 221);
+  }
+  nav a:hover{
+    background-color: rgb(231, 98, 131);
+    color: rgb(219, 134, 181);
+  }
+  
+footer{
+    background-color: rgb(225, 201, 213);
+  }
+  footer img{
+    width: 20px;
+    border-radius: 25%;
+  
+  }
+  p{
+    text-align: center;
+    font-size: 15px;
+  line-height: 1.4;
+  }
+  footer{
+    background-color: rgb(225, 201, 213);
+  }
+  footer img{
+    width: 20px;
+    border-radius: 25%;
+  
+  }
+  h3{
+    text-align: center
+ }
+ .logo{
+  margin-bottom: 10%;
+padding: 10px;
+    width:20px;
+ }
+.maps{
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: last baseline;
+  flex-direction: column;
+  flex: content;
+  padding-inline-start: 15px;
+    width: 35px;
+    border-radius:30%;
+    padding-left: 65%;
+}
+h4{
+  text-align: center;
+}

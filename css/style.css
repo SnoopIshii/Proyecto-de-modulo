@@ -3,30 +3,26 @@ body{
 background-color: rgb(233, 178, 178);
 
 }
-.icon{
-  width: 45px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-header{
-  text-align: center;
 
-}
 header h1{
   text-align: left;
-  padding: 15px;
- 
+  padding: 45px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
-header img{
-  text-align: center;
-  width: 50px;
+.icons{
+  width: 55px;
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  border-radius: 10%;
+ justify-content: space-evenly;
+ float: right;
+ margin-inline-end: 5px;
+  padding: 55px;
+  border-radius: 20%;
 }
+header h5{
+  text-align: center;
+float: none;
 
+}
 
 nav li{
   display: inline;
@@ -35,26 +31,29 @@ nav li{
 }
 nav a{
   text-decoration: none;
-  color: black;
+  color: rgb(236, 221, 221);
 }
 nav a:hover{
-  background-color: lightcoral;
-  color: black;
+  background-color: rgb(231, 98, 131);
+  color: rgb(219, 134, 181);
 }
 
 p{
+  text-align: center;
   font-size: 15px;
 line-height: 1.4;
 }
 
 footer{
-  background-color: rgb(247, 200, 223);
+  background-color: rgb(225, 201, 213);
 }
-.iconss{
-  display: flex;
-  justify-content: end;
+footer img{
+  width: 20px;
+  border-radius: 25%;
+
 }
 section img{
 width: 95%;
-margin-top: 50px;
+margin-top: 15px;
+padding: 25px;
 }
