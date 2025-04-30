@@ -8,14 +8,16 @@ header h1{
    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .icons{
-    width: 55px;
+    width: 135px;
     display: flex;
-   justify-content: space-evenly;
+   justify-content: space-around;
    float: right;
    margin-inline-end: 5px;
-    padding: 55px;
-    border-radius: 20%;
+    padding: 85px;
+  padding-block-start: 15px;
+    border-radius: 30%;
   }
+
   nav li{
     display: inline;
     padding: 80px;
@@ -52,24 +54,45 @@ footer{
   
   }
   h3{
-    text-align: center
+    text-align: left;
+    padding-left: 95px;
  }
  .logo{
-  margin-bottom: 10%;
-padding: 10px;
-    width:20px;
+  margin-bottom: 20%;
+padding: 50px;
+    width:15px;
+    margin-inline-start: 55px;
+    display: flex;
  }
-.maps{
-  display: flex;
-  justify-content: space-evenly;
-  justify-items: last baseline;
-  flex-direction: column;
-  flex: content;
-  padding-inline-start: 15px;
-    width: 35px;
-    border-radius:30%;
-    padding-left: 65%;
+ .cc img{
+  width: 35px;
+  border-radius: 20%;
+ }
+.cc{
+padding-left: 70px;
+
 }
 h4{
   text-align: center;
 }
+h4{
+  text-align: center;
+}
+@media screen {
+  (max-width: 800px;){
+    .body{ width: 100px;}
+aside {
+  width: 100%;
+}
+footer{ width: 100%;}
+  }
+  
+}
+@media screen { (max-width: 470px;)
+  .body{ width: 100px;}
+  aside {
+    width: 100%;
+  }
+  footer{ width: 100%;}
+    }
+  

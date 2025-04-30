@@ -10,15 +10,17 @@ header h1{
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .icons{
-  width: 55px;
+  width: 135px;
   display: flex;
- justify-content: space-evenly;
+ justify-content: space-around;
  float: right;
  margin-inline-end: 5px;
-  padding: 55px;
-  border-radius: 20%;
+  padding: 85px;
+padding-block-start: 15px;
+  border-radius: 30%;
 }
 header h5{
+margin-block-start: 25px;
   text-align: center;
 float: none;
 
@@ -57,3 +59,20 @@ width: 95%;
 margin-top: 15px;
 padding: 25px;
 }
+@media screen {
+  (max-width: 800px;){
+    .body{ width: 100px;}
+aside {
+  width: 100%;
+}
+footer{ width: 100%;}
+  }
+  
+}
+@media screen { (max-width: 470px;)
+  .body{ width: 100px;}
+  aside {
+    width: 100%;
+  }
+  footer{ width: 100%;}
+    }
